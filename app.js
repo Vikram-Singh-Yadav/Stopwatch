@@ -51,6 +51,7 @@ const handleReset = () => {
     flag = false;
     flag2 = false;
     stop.classList.remove('red');
+    stop.innerHTML = 'stop';
     timeShow();
 }
 start.addEventListener('click',handleStart);
